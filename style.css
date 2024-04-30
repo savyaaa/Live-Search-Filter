@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-fix {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dark * {
+  background-color: #1b1d1e;
+  color: #bdb7af;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Dark mode styles for search box */
+.dark #search-box {
+  background-color: #1b1d1e;
+  color: #bdb7af;
+}
+
+.dark #search-input {
+  background-color: #1b1d1e;
+  color: #bdb7af;
+}
+
+.dark #search-input::placeholder {
+  color: #bdb7af;
+}
+
+.dark #search-input:focus {
+  border-color: #3b4042;
+  outline-color: #3b4042;
+}
+
+/* Dark mode styles for mode toggle button */
+.dark #mode-toggle {
+  background-color: #1b1d1e;
+  color: #bdb7af;
+}
+/* Dark mode styles for search icon */
+.dark #search-icon {
+  background-color: #1b1d1e;
+  color: #bdb7af;
+}
